@@ -27,7 +27,6 @@ button{
     font-family: woff;
     src: url(../font/LarishNeueSemibold.woff);
 }
-
 // ===============Header=================
 header{
     section{
@@ -357,11 +356,7 @@ footer{
 
 }
 // ===============Media Queries 800px=================
-
 @media only screen and (max-width: 800px){
-// ===============Header=================
-  
-  
 // ===============Main Section 1=================
 main {
 section:nth-of-type(1){
