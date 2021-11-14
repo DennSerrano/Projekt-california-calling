@@ -1,0 +1,497 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: woff;
+}
+
+body {
+  background-color: #000;
+}
+
+.buttonhover:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+@font-face {
+  font-family: woff;
+  src: url(../font/LarishNeueSemibold.woff);
+}
+header section {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+header section article {
+  text-align: center;
+}
+header section article div {
+  width: 50%;
+  height: 30vh;
+  border-right: 1px solid grey;
+  margin: 0 0 10vh 0;
+}
+header section article p {
+  font-size: 20px;
+  margin: 0 0 5vh 0;
+}
+header section article h1 {
+  line-height: 12vh;
+  font-size: 15vh;
+  margin: 0 0 2vh 0;
+}
+header section article h1 span {
+  color: #000;
+  -webkit-text-stroke: 1px;
+  -webkit-text-stroke-color: #fff;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 12vh 8vw 20vh 8vw;
+}
+header nav button {
+  font-size: 20px;
+  background-color: #000;
+  color: #fff;
+  padding: 3vh 3.5vw;
+  border: 2px solid #fff;
+}
+
+main img {
+  width: 50%;
+}
+main section:nth-of-type(1) {
+  margin: 0 0 15vh 8vw;
+  background-color: #000;
+  color: #fff;
+}
+main section:nth-of-type(1) p {
+  width: 83vw;
+  font-size: 14vh;
+  font-weight: bold;
+}
+main section:nth-of-type(1) article {
+  display: flex;
+  justify-content: space-between;
+}
+main section:nth-of-type(1) article div {
+  margin: 20vh 0 0 0;
+  width: 50vh;
+}
+main section:nth-of-type(1) article img {
+  width: 45%;
+}
+main section:nth-of-type(2) {
+  background-color: #fff;
+}
+main section:nth-of-type(2) article:nth-of-type(1) {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+main section:nth-of-type(2) article:nth-of-type(1) img {
+  transform: translate(-8vw, -12vh);
+  width: 25%;
+}
+main section:nth-of-type(2) article:nth-of-type(2) {
+  display: flex;
+}
+main section:nth-of-type(2) article:nth-of-type(2) img {
+  width: 300px;
+  height: 200px;
+  transform: translate(5vw, 9vh);
+}
+main section:nth-of-type(2) article:nth-of-type(2) div {
+  transform: translate(15vw, 25vh);
+  width: 35vw;
+}
+main section:nth-of-type(2) article:nth-of-type(2) div h2 {
+  font-size: 12vh;
+}
+main section:nth-of-type(2) article:nth-of-type(2) div p {
+  font-family: "Work Sans", sans-serif;
+  line-height: 5vh;
+  font-weight: 300;
+}
+main section:nth-of-type(2) article:nth-of-type(3) {
+  display: flex;
+  justify-content: flex-end;
+}
+main section:nth-of-type(2) article:nth-of-type(3) img {
+  width: 20%;
+  transform: translate(0vw, 20vh);
+}
+main section:nth-of-type(2) article:nth-of-type(4) {
+  display: flex;
+  padding: 30vh 0 0 0;
+  justify-content: space-around;
+}
+main section:nth-of-type(2) article:nth-of-type(4) img:nth-of-type(1) {
+  width: 25%;
+  transform: translate(1vw, -17vh);
+}
+main section:nth-of-type(2) article:nth-of-type(4) img:nth-of-type(2) {
+  width: 25%;
+  transform: translate(0vw, 20vh);
+}
+main section:nth-of-type(2) article:nth-of-type(5) {
+  display: flex;
+  padding: 40vh 0 0 0;
+}
+main section:nth-of-type(2) article:nth-of-type(5) p {
+  font-family: "Work Sans", sans-serif;
+  line-height: 4vh;
+  width: 35vw;
+  transform: translate(12vw, 9vh);
+}
+main section:nth-of-type(2) article:nth-of-type(5) img {
+  width: 20%;
+}
+main section:nth-of-type(2) article:nth-of-type(6) {
+  display: flex;
+  justify-content: center;
+}
+main section:nth-of-type(2) article:nth-of-type(6) img {
+  width: 30%;
+  transform: translate(15vw, 12vh);
+}
+main section:nth-of-type(3) article:nth-of-type(1) {
+  padding: 20vh 10vw 0 10vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main section:nth-of-type(3) article:nth-of-type(1) div p {
+  font-size: 17px;
+  color: #fff;
+}
+main section:nth-of-type(3) article:nth-of-type(1) div h2 {
+  color: #fff;
+  font-size: 14vh;
+  width: 30vw;
+  line-height: 15vh;
+}
+main section:nth-of-type(3) article:nth-of-type(1) p {
+  color: #fff;
+  font-size: 30px;
+  width: 40vw;
+}
+main section:nth-of-type(3) article:nth-of-type(1) span {
+  font-size: 17px;
+  color: #fff;
+}
+main section:nth-of-type(3) div .bear {
+  width: 55%;
+  margin: 5vh 0 0 10vw;
+  transform: translateY(25vh);
+}
+main section:nth-of-type(3) div .bears {
+  width: 55vh;
+  transform: translate(-6vw, 13vh);
+}
+main section:nth-of-type(4) {
+  z-index: -1;
+  overflow: hidden;
+  position: relative;
+  background-color: #fff;
+}
+main section:nth-of-type(4) .ring {
+  position: absolute;
+  top: -15vh;
+  left: 150vh;
+  width: 35%;
+  color: #fff;
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+main section:nth-of-type(4) article {
+  display: flex;
+  justify-content: space-between;
+  padding: 70vh 5vw 0 10vw;
+}
+main section:nth-of-type(4) article div h2 {
+  line-height: 12vh;
+  font-size: 13vh;
+  width: 0vw;
+}
+main section:nth-of-type(4) article div p {
+  font-size: 20px;
+}
+main section:nth-of-type(4) article p {
+  font-size: 30px;
+  width: 40vw;
+}
+main section:nth-of-type(4) article span {
+  font-size: 20px;
+}
+main section:nth-of-type(4) .bearpics {
+  padding: 20vh 0 15vh 0;
+  display: flex;
+  justify-content: space-around;
+}
+main section:nth-of-type(4) .bearpics img:nth-of-type(1) {
+  width: 25%;
+  height: 25%;
+  transform: translate(19vw, 19vh);
+}
+main section:nth-of-type(4) .bearpics img:nth-of-type(2) {
+  width: 50%;
+}
+
+footer {
+  overflow: hidden;
+  color: #fff;
+  position: relative;
+}
+footer .banner {
+  transform: skewY(40deg);
+  background-color: #fff;
+  position: absolute;
+  width: 170vw;
+  top: 30vh;
+  left: -10vw;
+  animation-name: banner;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+footer .banner p {
+  color: #000;
+  font-size: 15vh;
+}
+footer .banner p span {
+  color: #fff;
+  -webkit-text-stroke: 2px;
+  -webkit-text-stroke-color: #000;
+}
+@keyframes banner {
+  0% {
+    transform: rotate(45deg) translateX(0vw);
+  }
+  100% {
+    transform: rotate(45deg) translateX(50vw);
+  }
+}
+footer section article:nth-of-type(1) {
+  margin: 10vh 0 0 10vw;
+}
+footer section article:nth-of-type(1) p {
+  line-height: 7vh;
+  font-size: 5vh;
+  width: 37vw;
+}
+footer section article:nth-of-type(1) p span {
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+}
+footer section article:nth-of-type(1) button {
+  color: #fff;
+  font-size: 20px;
+  background-color: #000;
+  padding: 3vh 3.5vw;
+  border: 2px solid #fff;
+  font-family: "Work Sans", sans-serif;
+}
+footer section article:nth-of-type(2) {
+  padding: 10vh 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer section article:nth-of-type(2) div:nth-of-type(1) {
+  padding: 5vh 15vw 5vh 10vw;
+}
+footer section article:nth-of-type(2) div:nth-of-type(1) img {
+  width: 10%;
+}
+footer section article:nth-of-type(2) div:nth-of-type(1) p {
+  padding: 3vh 0 0 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+}
+footer section article:nth-of-type(2) div:nth-of-type(2) img {
+  width: 15%;
+}
+
+@media only screen and (max-width: 600px) {
+  header section article p {
+    font-size: 15px;
+    margin: 0 0 0vh 0;
+  }
+  header section article h1 {
+    font-size: 10vh;
+  }
+
+  main section:nth-of-type(1) p {
+    font-size: 4vh;
+  }
+  main section:nth-of-type(1) article div {
+    margin: 10vh 0 0 0;
+  }
+  main section:nth-of-type(1) article img {
+    width: 25%;
+  }
+  main section:nth-of-type(2) article:nth-of-type(1) {
+    justify-content: center;
+  }
+  main section:nth-of-type(2) article:nth-of-type(1) img {
+    transform: translate(5vw, -10vh);
+    width: 50%;
+  }
+  main section:nth-of-type(2) article:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50vw;
+  }
+  main section:nth-of-type(2) article:nth-of-type(2) img {
+    transform: translate(0vw, 0vh);
+  }
+  main section:nth-of-type(2) article:nth-of-type(2) div {
+    transform: translate(20vw, 35vh);
+  }
+  main section:nth-of-type(2) article:nth-of-type(2) div h2 {
+    font-size: 5vh;
+  }
+  main section:nth-of-type(2) article:nth-of-type(3) img {
+    width: 50%;
+    transform: translate(0vw, -50vh);
+  }
+  main section:nth-of-type(2) article:nth-of-type(4) img:nth-of-type(1) {
+    width: 50%;
+    transform: translate(0vw, 15vh);
+  }
+  main section:nth-of-type(2) article:nth-of-type(4) img:nth-of-type(2) {
+    width: 50%;
+    transform: translate(0vw, -15vh);
+  }
+  main section:nth-of-type(2) article:nth-of-type(5) {
+    padding: 40vh 0 0 0;
+  }
+  main section:nth-of-type(2) article:nth-of-type(5) p {
+    width: 100vw;
+    transform: translate(0vw, -25vh);
+  }
+  main section:nth-of-type(2) article:nth-of-type(5) img {
+    width: 300px;
+    height: 200px;
+    transform: translate(0vw, 15vh);
+  }
+  main section:nth-of-type(2) article:nth-of-type(6) img {
+    width: 50%;
+    transform: translate(15vw, 12vh);
+  }
+  main section:nth-of-type(3) article:nth-of-type(1) div p {
+    font-size: 10px;
+  }
+  main section:nth-of-type(3) article:nth-of-type(1) div h2 {
+    font-size: 5vh;
+    width: 30vw;
+    line-height: 5vh;
+  }
+  main section:nth-of-type(3) article:nth-of-type(1) p {
+    font-size: 20px;
+    width: 40vw;
+  }
+  main section:nth-of-type(3) article:nth-of-type(1) span {
+    font-size: 17px;
+  }
+  main section:nth-of-type(3) div .bear {
+    transform: translate(15vw, 10vh);
+  }
+  main section:nth-of-type(3) div .bears {
+    width: 25%;
+    transform: translate(3vw, 10vh);
+  }
+  main section:nth-of-type(4) .ring {
+    top: -9vh;
+    left: 65vh;
+  }
+  main section:nth-of-type(4) article {
+    padding: 30vh 5vw 0 10vw;
+  }
+  main section:nth-of-type(4) article div h2 {
+    line-height: 5vh;
+    font-size: 5vh;
+    width: 0vw;
+  }
+  main section:nth-of-type(4) article div p {
+    font-size: 15px;
+  }
+  main section:nth-of-type(4) article p {
+    font-size: 20px;
+    width: 40vw;
+  }
+  main section:nth-of-type(4) article span {
+    font-size: 15px;
+  }
+  main section:nth-of-type(4) .bearpics {
+    padding: 10vh 0 15vh 0;
+  }
+
+  footer .banner {
+    transform: skewY(40deg);
+    position: absolute;
+    width: 170vw;
+    top: 30vh;
+    left: -10vw;
+  }
+  footer .banner p {
+    font-size: 5vh;
+  }
+  @keyframes banner {
+    0% {
+      transform: rotate(45deg) translateX(0vw);
+    }
+    100% {
+      transform: rotate(45deg) translateX(25vw);
+    }
+  }
+  footer section article:nth-of-type(1) {
+    margin: 10vh 0 0 10vw;
+  }
+  footer section article:nth-of-type(1) p {
+    line-height: 4vh;
+    font-size: 2vh;
+    width: 37vw;
+  }
+  footer section article:nth-of-type(1) p span {
+    font-size: 13px;
+  }
+  footer section article:nth-of-type(1) button {
+    margin: 2vh 0 0 0;
+    font-size: 15px;
+    padding: 2vh 5vw;
+  }
+  footer section article:nth-of-type(2) {
+    padding: 10vh 0 0 0;
+  }
+  footer section article:nth-of-type(2) div:nth-of-type(1) {
+    padding: 5vh 15vw 5vh 10vw;
+  }
+  footer section article:nth-of-type(2) div:nth-of-type(1) img {
+    width: 15%;
+  }
+  footer section article:nth-of-type(2) div:nth-of-type(1) p {
+    padding: 3vh 0 0 0;
+    font-size: 15px;
+  }
+  footer section article:nth-of-type(2) div:nth-of-type(2) img {
+    width: 25%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
